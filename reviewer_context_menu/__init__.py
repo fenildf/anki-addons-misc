@@ -1,3 +1,11 @@
+"""
+Works for Anki2.1 ONLY
+
+Print context menu into right-click mene in Anki Reviewer
+
+Copyright: (c) KyleHwang(Kuang) <https://github.com/upday7>
+License: GNU AGPLv3 or later <https://www.gnu.org/licenses/agpl.html>
+"""
 from anki.hooks import addHook
 from aqt import mw
 

@@ -1,3 +1,12 @@
+"""
+Works for Anki2.1 ONLY
+
+Minimize Anki application to system tray instead of closing it.
+
+Copyright: (c) KyleHwang(Kuang) <https://github.com/upday7>
+License: GNU AGPLv3 or later <https://www.gnu.org/licenses/agpl.html>
+"""
+
 from anki.hooks import addHook
 from aqt.qt import *
 from aqt import *
